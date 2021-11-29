@@ -1,0 +1,43 @@
+//font
+@mixin xxx-large{
+    font-family: 'Old Standard TT', serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: $smoky;
+}
+@mixin xx-large{
+    font-family: 'Old Standard TT', serif;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+@mixin x-large{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: $smoky;
+}
+@mixin large{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+@mixin medium{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+@mixin small{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+@mixin x-small{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+
+
