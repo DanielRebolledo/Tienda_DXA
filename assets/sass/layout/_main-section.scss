@@ -21,9 +21,55 @@
     line-height: 1.5;
 }
 
-.main__text a{
-    display: inline-block;
-    border: 1px solid black;
-    padding: 5px 10px;
-    margin-top: 20px;
+//tablet
+@media screen and (min-width: 768px) {
+
+    .main__img{
+        height: 500px;
+    }
+    
+    .main__text{
+        padding: 0 40px;
+    }
+    
 }
+
+@media screen and (min-width: 1024px) {
+
+    .main__img{
+        height: 600px;
+    }
+
+    .main__text{
+        margin: 86px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .main{
+        width: 100%;
+        max-width: 1700px;
+        height: 100vh;
+        margin: auto;
+    }
+    
+    .main__img{
+        width: 60%;
+        height: 100%;
+        background-position: center;
+        float: right;
+    }
+    
+    .main__text{
+        width: 40%;
+        margin: 30px 0;
+        padding: 100px 40px;
+        float: left;
+    }
+    
+    .main__text p{
+        margin: 10px 0;
+        line-height: 1.5;
+    }
+}
+

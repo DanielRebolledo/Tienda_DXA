@@ -10,8 +10,6 @@
     transform: translateX(-100%);
 }
 
-
-
 .menu li{
     padding: 30px 0;
     border-top: 1px solid rgba(255,255,255,0.5);
@@ -20,4 +18,46 @@
 .menu li a{
     color: white;
     letter-spacing: 5px;
+}
+
+//tablet
+@media screen and (min-width: 768px) {
+
+    .navbar{
+        width: auto;
+        height: 70px;
+        position:static;
+        margin-right: 20px;
+        text-align: right;
+        background-color: $white;
+        transition: none;
+        transform: none;
+        float: right;
+    }
+    
+    .menu li{
+        display: inline-block;
+        margin: 0px 20px;
+        padding: 30px 0;
+        border-top: none;
+    }
+    
+    .menu li a{
+        color: $smoky;
+        letter-spacing: 0px;
+    }
+}
+
+//Escritorio
+@media screen and (min-width: 1280px) {
+
+    .navbar{
+        height: 130px;
+        padding-top: 20px;
+        margin-right: 40px;
+    }
+    
+    .menu li a:hover{
+        color: $silver;
+    }
 }
